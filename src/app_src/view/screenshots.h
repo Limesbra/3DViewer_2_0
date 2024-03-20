@@ -13,7 +13,7 @@
 #include "../external/gif.h"
 #include "ogl_module.h"
 
-namespace s21 {
+namespace viewer {
 
 /// @brief Screen shot manager class.
 class ScrnShotManager : public QObject {

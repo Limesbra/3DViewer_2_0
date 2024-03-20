@@ -6,10 +6,10 @@ FILES = ../app_src/model/*.cc
 
 UNAME := $(shell uname -s)
 ifeq ($(UNAME), Darwin)
-	RUN = ./build/s21_3D_viewer_2_0.app/Contents/MacOS/s21_3D_viewer_2_0
+	RUN = ./build/3D_viewer_2_0.app/Contents/MacOS/3D_viewer_2_0
 endif
 ifeq ($(UNAME), Linux)
-	RUN = ./build/s21_3D_viewer_2_0
+	RUN = ./build/3D_viewer_2_0
 endif
 
 all: install test

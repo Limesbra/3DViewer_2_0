@@ -19,7 +19,7 @@ class OGL_Module : public QOpenGLWidget, protected QOpenGLFunctions {
   Q_OBJECT
  public:
   /// @brief Open GL class constructor.
-  explicit OGL_Module(s21::AppSettings *s, s21::Controller *c)
+  explicit OGL_Module(viewer::AppSettings *s, viewer::Controller *c)
       : QOpenGLWidget(), projection(false), settings(s), controller(c){};
   /// @brief Open GL class destructor.
   ~OGL_Module(){};
@@ -40,8 +40,8 @@ class OGL_Module : public QOpenGLWidget, protected QOpenGLFunctions {
   void initVertexBuffers();
   void drawModel();
   void initProjection();
-  s21::AppSettings *settings;
-  s21::Controller *controller;
+  viewer::AppSettings *settings;
+  viewer::Controller *controller;
 };
 
 }  // namespace viewer

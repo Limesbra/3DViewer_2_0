@@ -15,7 +15,7 @@ namespace viewer {
 class ExtSliderMediator : public QObject {
  public:
   /// @brief Extended slider mediator constructor
-  ExtSliderMediator(QSlider *s, QSpinBox *b, s21::Controller *c, double &v,
+  ExtSliderMediator(QSlider *s, QSpinBox *b, viewer::Controller *c, double &v,
                     int strategy, double k)
       : _slider(s),
         _box(b),
@@ -58,7 +58,7 @@ class ExtSliderMediator : public QObject {
 
   QSlider *_slider;
   QSpinBox *_box;
-  s21::Controller *_controller;
+  viewer::Controller *_controller;
   double &_value;
   int _strategy;
   double _prev_value;
