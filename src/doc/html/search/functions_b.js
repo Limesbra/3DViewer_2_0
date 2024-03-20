@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['transform_0',['Transform',['../classs21_1_1_strategy_mode.html#a8339677a4c0aa86199098be4e5d0d986',1,'s21::StrategyMode::Transform()'],['../classs21_1_1_strategy_move__x.html#adf71b0601c1c93f80545d1cede52c2fa',1,'s21::StrategyMove_x::Transform()'],['../classs21_1_1_strategy_move__y.html#afb9bd55b9cd479a56a4e91d5b43fcd1e',1,'s21::StrategyMove_y::Transform()'],['../classs21_1_1_strategy_move__z.html#a395249bd56955c23b377ba10b6c21ad1',1,'s21::StrategyMove_z::Transform()'],['../classs21_1_1_strategy_rotate__x.html#a0ff950ea5a41699493db27a53963f82a',1,'s21::StrategyRotate_x::Transform()'],['../classs21_1_1_strategy_rotate__y.html#a43d0562f34d244a4ab209a93cd084c7a',1,'s21::StrategyRotate_y::Transform()'],['../classs21_1_1_strategy_rotate__z.html#a0fd0469a27fcb27509c5f9fb329cdb42',1,'s21::StrategyRotate_z::Transform()'],['../classs21_1_1_strategy_scale.html#a97e3f04ca6c377cfe25648a6be71acca',1,'s21::StrategyScale::Transform()']]]
+];

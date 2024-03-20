@@ -1,0 +1,47 @@
+\doxysection{s21\+\_\+parser.\+h}
+\hypertarget{s21__parser_8h_source}{}\label{s21__parser_8h_source}\index{/Users/limesbra/cpp/CPP4\_3DViewer\_v2.0-\/1/src/app\_src/model/s21\_parser.h@{/Users/limesbra/cpp/CPP4\_3DViewer\_v2.0-\/1/src/app\_src/model/s21\_parser.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ S21\_PARSER\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ S21\_PARSER\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <cmath>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}s21\_data.h"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{namespace\ }s21\ \{}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classs21_1_1_parser}{Parser}}\ \{}
+\DoxyCodeLine{00016\ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \mbox{\hyperlink{classs21_1_1_parser_aa28c68d0be9207fd86fc6cb2c2f78c56}{Parser}}()\{\};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00021\ \ \ \mbox{\hyperlink{classs21_1_1_parser_a62007cccc03b1b529e84b760d53c2075}{\string~Parser}}();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00024\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classs21_1_1_parser_a0d3f7ae0fb65dd836819563b9bb87ed2}{Parse}}(\textcolor{keyword}{const}\ std::string\&\ filename,\ \mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data);}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00027\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classs21_1_1_parser_abb0c4b2aba2ec602479f8ed8bfadcc79}{ClearData}}(\mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data);}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00031\ \ \ \textcolor{keywordtype}{void}\ PushVertex(std::string\&\ line,\ \mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00034\ \ \ \textcolor{keywordtype}{void}\ PushIndex(std::string\&\ line,\ \mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data);}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00037\ \ \ \textcolor{keywordtype}{void}\ NumberOfVertex(\mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data);}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00040\ \ \ \textcolor{keywordtype}{void}\ CountOfEdges(\mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data);}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00043\ \ \ \textcolor{comment}{//\ void\ FixNegativeNumbers(Data*\ \_data);}}
+\DoxyCodeLine{00044\ \ \ \textcolor{keywordtype}{void}\ FixNegative(\mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data,\ \textcolor{keywordtype}{int}\&\ num);}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00047\ \ \ \textcolor{keywordtype}{void}\ SetStartScale(\mbox{\hyperlink{classs21_1_1_data}{Data}}*\ data);}
+\DoxyCodeLine{00048\ \};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \}\ \ \textcolor{comment}{//\ namespace\ s21}}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#endif\ \ }\textcolor{comment}{//\ S21\_PARSER\_H}}
+
+\end{DoxyCode}
